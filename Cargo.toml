@@ -1,0 +1,16 @@
+[package]
+name = "yeett"
+version = "0.1.0"
+authors = ["SaltyAom <aomkirby123@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+# opt-level = 's'
+opt-level = 3
+lto = true
+# panic = 'abort'
+codegen-units = 1
+
+[dependencies]
