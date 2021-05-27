@@ -23,12 +23,12 @@ using namespace std;
 #define YEeET message
 #define YEEet 127
 #define YEEeT scanf
-#define YEEEt "Read char array"
+#define YEEEt "Read character array"
 #define YEEET "%s"
 
 
 YeEET YEeet YeeT   YeEt    YeET  
-    YEeeT YeeT  "Read YEeEt array" YeEt   Yeet  
+    YEeeT YeeT  YEEEt YeEt   Yeet  
 
     YEeEt YEeET YeeET  YEEet YeEet   Yeet  
     YEEeT YeeT  YEEET YEeT    YEEt  YEeET YeEt   Yeet  
