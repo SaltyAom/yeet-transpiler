@@ -72,7 +72,7 @@ fn main() {
     let filename = env::args().nth(1);
 
     if filename.is_none() {
-        println!("File is required");
+        println!("File name is required");
 
         process::exit(1)
     }
@@ -96,7 +96,7 @@ fn main() {
 
     let source: String = source.unwrap();
 
-    let special_chars: Vec<&str> = vec![";", "(", ")", "{", "}", ",", "&", "<<", ">>", "<", ">", "::", ":", "\"", "[", "]", "++", "--", "return"];
+    let special_chars: Vec<&str> = vec![";", "(", ")", "{", "}", ",", "&", "<<", ">>", "<", ">", "::", ":", "\"", "[", "]", "++", "--", "+=", "-=", ">=", "<=", "+", "-", "=", "return"];
 
     let mut meta_header = String::new();
     let mut total_meta: u16 = 0;
@@ -203,7 +203,7 @@ fn main() {
             }
 
             if known_quotation_yeet.contains(word) {
-                code = code.replace(&format!("~yeet{}~", yeet_quotation_found), &yeet_word);
+                code = code.replace(&format!("~yeet{}~", yeet_quotation_found), &format!("{}", yeet_word.trim()));
                 yeet_quotation_found += 1;
             } else  if special_chars.contains(&word) {
                 code = code.replace(word, &format!(" {} ", &format!(" {} ", yeet_word)));

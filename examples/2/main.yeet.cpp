@@ -17,42 +17,41 @@
 #define YeEEt ]
 #define YeEET ++
 #define YEeet --
-#define YEeeT return
-#define YEeEt int
-#define YEeET main
-#define YEEet a
-#define YEEeT b
-#define YEEEt i
-#define YEEET j
-#define Yeeeet x=0
-#define YeeeeT scanf
-#define YeeeEt m
-#define YeeeET n
-#define YeeEet o
-#define YeeEeT for
-#define YeeEEt i=0
-#define YeeEET =0
-#define YeEeet j=0
-#define YeEeeT +=m
-#define YeEeEt if
-#define YeEeET +o
-#define YeEEet -m
-#define YeEEeT x
-#define YeEEEt x=n
+#define YEeeT +=
+#define YEeEt -=
+#define YEeET >=
+#define YEEet <=
+#define YEEeT +
+#define YEEEt -
+#define YEEET =
+#define Yeeeet return
+#define YeeeeT int
+#define YeeeEt main
+#define YeeeET a
+#define YeeEet b
+#define YeeEeT i
+#define YeeEEt j
+#define YeeEET x
+#define YeEeet 0
+#define YeEeeT scanf
+#define YeEeEt m
+#define YeEeET n
+#define YeEEet o
+#define YeEEeT for
+#define YeEEEt if
 #define YeEEET printf
-#define YEeeet 0
-#define YEeeeT "%d %d"
-#define YEeeEt "%d"
+#define YEeeet "%d %d"
+#define YEeeeT "%d"
 
- YEeEt  YEeET  YeeT    YeEt     YeET  
-     YEeEt  YEEet  YEeT   YEEeT  YEeT   YEEEt  YEeT   YEEET  YEeT   Yeeeet  Yeet  
-     YeeeeT  YeeT  "%d %d"  YEeT     YEEt   YEEet  YEeT     YEEt   YEEeT  YeEt    Yeet  
-     YEeEt  YeeeEt  YeEeT   YEEet  YeEEt    YeEeT   YEEeT  YeEEt    YEeT    YeeeET  YeEeT   YEEet  YeEEt    YEeT    YeeEet  YeEeT   YEEeT  YeEEt    Yeet  
-     YeeEeT  YeeT   YeeEEt  Yeet   YEEEt  YeeeT   YEEet  Yeet   YEEEt  YeEET    YeEt    YeeeET  YeEeT   YEEEt  YeEEt   YeeEET  Yeet  
-     YeeEeT  YeeT   YeeEEt  Yeet   YEEEt  YeeeT   YEEeT  Yeet   YEEEt  YeEET    YeEt    YeeEet  YeEeT   YEEEt  YeEEt   YeeEET  Yeet  
-     YeeEeT  YeeT   YeeEEt  Yeet   YEEEt  YeeeT   YEEet  Yeet   YEEEt  YeEET    YeEt    YeeEeT  YeeT   YEEET YeeEET  Yeet   YEEET  YeeeT   YEEeT  Yeet   YEEET  YeEET    YeEt    YeeeeT  YeeT  "%d"  YEeT     YEEt   YeeeEt  YeEeT   YEEEt  YeEEt    YeEeT   YEEET  YeEEt    YeEt    Yeet  
-     YeeEeT  YeeT   YeeEEt  Yeet   YEEEt  YeeeT   YEEet  Yeet   YEEEt  YeEET    YeEt    YeeEeT  YeeT   YEEET YeeEET  Yeet   YEEET  YeeeT   YEEeT  Yeet   YEEET  YeEET    YeEt    YeeeET  YeEeT   YEEEt  YeEEt  += YeeeEt  YeEeT   YEEEt  YeEEt    YeEeT   YEEET  YeEEt    YEeT   YeeEet  YeEeT   YEEET  YeEEt  += YeeeEt  YeEeT   YEEEt  YeEEt    YeEeT   YEEET  YeEEt    Yeet   
-     YeeEeT  YeeT   YeeEEt  Yeet   YEEEt  YeeeT   YEEet  Yeet   YEEEt  YeEET    YeEt    YeeEeT  YeeT   YEeEt  YEEET YeeEET  Yeet   YEEET  YeeeT   YEEeT  Yeet   YEEET  YeEET    YeEt    YeEeEt  YeeT   YeeeET  YeEeT   YEEEt  YeEEt  + YeeEet  YeEeT   YEEET  YeEEt  - YeeeEt  YeEeT   YEEEt  YeEEt    YeEeT   YEEET  YeEEt    YeeEt   YeEEeT  YeEt   x= YeeeET  YeEeT   YEEEt  YeEEt  + YeeEet  YeEeT   YEEET  YeEEt  - YeeeEt  YeEeT   YEEEt  YeEEt    YeEeT   YEEET  YeEEt    Yeet  
-     YeEEET  YeeT  "%d"  YEeT   YeEEeT  YeEt    Yeet  
-      YEeeT    YEeeet  Yeet  
+ YeeeeT  YeeeEt  YeeT    YeEt     YeET  
+     YeeeeT  YeeeET  YEeT   YeeEet  YEeT   YeeEeT  YEeT   YeeEEt  YEeT   YeeEET  YEEET   YeEeet  Yeet  
+     YeEeeT  YeeT  YEeeet  YEeT     YEEt   YeeeET  YEeT     YEEt   YeeEet  YeEt    Yeet  
+     YeeeeT  YeEeEt  YeEeT   YeeeET  YeEEt    YeEeT   YeeEet  YeEEt    YEeT    YeEeET  YeEeT   YeeeET  YeEEt    YEeT    YeEEet  YeEeT   YeeEet  YeEEt    Yeet  
+     YeEEeT  YeeT   YeeEeT  YEEET   YeEeet  Yeet   YeeEeT  YeeeT   YeeeET  Yeet   YeeEeT  YeEET    YeEt    YeEeET  YeEeT   YeeEeT  YeEEt    YEEET   YeEeet  Yeet  
+     YeEEeT  YeeT   YeeEeT  YEEET   YeEeet  Yeet   YeeEeT  YeeeT   YeeEet  Yeet   YeeEeT  YeEET    YeEt    YeEEet  YeEeT   YeeEeT  YeEEt    YEEET   YeEeet  Yeet  
+     YeEEeT  YeeT   YeeEeT  YEEET   YeEeet  Yeet   YeeEeT  YeeeT   YeeeET  Yeet   YeeEeT  YeEET    YeEt    YeEEeT  YeeT   YeeEEt  YEEET   YeEeet  Yeet   YeeEEt  YeeeT   YeeEet  Yeet   YeeEEt  YeEET    YeEt    YeEeeT  YeeT  YEeeeT  YEeT     YEEt   YeEeEt  YeEeT   YeeEeT  YeEEt    YeEeT   YeeEEt  YeEEt    YeEt    Yeet  
+     YeEEeT  YeeT   YeeEeT  YEEET   YeEeet  Yeet   YeeEeT  YeeeT   YeeeET  Yeet   YeeEeT  YeEET    YeEt    YeEEeT  YeeT   YeeEEt  YEEET   YeEeet  Yeet   YeeEEt  YeeeT   YeeEet  Yeet   YeeEEt  YeEET    YeEt    YeEeET  YeEeT   YeeEeT  YeEEt    YEeeT   YeEeEt  YeEeT   YeeEeT  YeEEt    YeEeT   YeeEEt  YeEEt    YEeT   YeEEet  YeEeT   YeeEEt  YeEEt    YEeeT   YeEeEt  YeEeT   YeeEeT  YeEEt    YeEeT   YeeEEt  YeEEt    Yeet   
+     YeEEeT  YeeT   YeeEeT  YEEET   YeEeet  Yeet   YeeEeT  YeeeT   YeeeET  Yeet   YeeEeT  YeEET    YeEt    YeEEeT  YeeT   YeeeeT  YeeEEt  YEEET   YeEeet  Yeet   YeeEEt  YeeeT   YeeEet  Yeet   YeeEEt  YeEET    YeEt    YeEEEt  YeeT   YeEeET  YeEeT   YeeEeT  YeEEt    YEEeT   YeEEet  YeEeT   YeeEEt  YeEEt    YEEEt   YeEeEt  YeEeT   YeeEeT  YeEEt    YeEeT   YeeEEt  YeEEt    YeeEt   YeeEET  YeEt    YeeEET  YEEET   YeEeET  YeEeT   YeeEeT  YeEEt    YEEeT   YeEEet  YeEeT   YeeEEt  YeEEt    YEEEt   YeEeEt  YeEeT   YeeEeT  YeEEt    YeEeT   YeeEEt  YeEEt    Yeet  
+     YeEEET  YeeT  YEeeeT  YEeT   YeeEET  YeEt    Yeet  
+      Yeeeet    YeEeet  Yeet  
   YEet  

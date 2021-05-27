@@ -10,10 +10,15 @@ Examples output is in the [examples](https://github.com/SaltyAom/yeet-transpiler
 ## Usage
 `yeett` the command to transpile your c++ code to yeet.
 
+However, you will required to use gcc to compile .cpp file into binary.
+
 Example usage:
 ```bash
 # Output as main.yeet.cpp
 yeett main.cpp
+
+gcc main.yeet.cpp -o main
+./main
 ```
 
 ## Installation
