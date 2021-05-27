@@ -3,23 +3,25 @@ YEET transpiler for C and C++ file, written in Rust.
 
 Transpile your C++ file into yeet code inspired by [this reddit post](https://www.reddit.com/r/ProgrammerHumor/comments/bgdxwn/yeet).
 
-Examples output is in the examples folder.
+Examples output is in the [examples](https://github.com/SaltyAom/yeet-transpiler/tree/main/examples) folder.
 
-### Usage
+![Fubuki](https://user-images.githubusercontent.com/35027979/119815992-5cad9e80-bf16-11eb-89f2-94d5e879fc9c.png)
+
+## Usage
 `yeett` the command to transpile your c++ code to yeet.
 
 Example usage:
 ```bash
+# Output as main.yeet.cpp
 yeett main.cpp
-// Output as main.yeet.cpp
 ```
 
-### Installation
+## Installation
 No package is published yet due to unstability of the projet.
 
 You have to compile the binary from source (this repo).
 
-### Prequisted
+## Prequisted
 - Rust 1.51 or more
 - Git
 
@@ -49,7 +51,7 @@ sudo cp yeett /usr/bin/yeett
 yeet some_file.cpp
 ```
 
-### Known limitation: 
+## Known limitation: 
 - Support only 1 file for now.
 - Hardcoded string cannot contains the following:
     - `;` 
@@ -72,7 +74,7 @@ yeet some_file.cpp
     - `--`
     - `return`
 
-### Note
+## Note
 This project is made for pure meme intent and neither is stable nor having a long maintainance or long term support.
 
 Please use this project at your own risk.
