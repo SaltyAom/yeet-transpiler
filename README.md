@@ -37,7 +37,7 @@ git clone https://github.com/saltyAom/yeet-transpiler && cd yeet-transpiler
 
 2. Compile the source using Rust
 ```bash
-cargo build --bin --release
+cargo build --bin --release yeett
 ```
 
 3. Navigate to built folder
