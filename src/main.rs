@@ -65,7 +65,6 @@ fn remove(source: String, keys: Vec<&str>) -> String {
     word
 }
 
-
 fn main() {
     let time = Instant::now();
 
@@ -166,9 +165,15 @@ fn main() {
         .enumerate()
         .filter(|(index, _)| index % 2 == 1)
         .map(|(_, value)| {
-            known_yeet.push(value);
+            let mut w = value.chars();
+            w.next();
+            w.next_back();
 
-            value
+            let word = w.as_str();
+
+            known_yeet.push(word);
+
+            word
         })
         .collect();
 
@@ -178,7 +183,7 @@ fn main() {
     let mut yeet_defination = String::new();
 
     for (index, quote) in known_quotation_yeet.iter().enumerate() {
-        code = code.replace(&format!("\"{}\"", quote.trim()), &format!("~yeet{}~", index));
+        code = code.replace(&format!("\"{}\"", quote), &format!("~yeet{}~", index));
     }
 
     let mut yeet_quotation_found = 0;
@@ -196,14 +201,14 @@ fn main() {
                 dictionary.insert(word, yeet_word.to_owned());
                 
                 if known_quotation_yeet.contains(word) {
-                    yeet_defination += &format!("#define {} \"{}\"\n", yeet_word, word.trim());
+                    yeet_defination += &format!("#define {} \"{}\"\n", yeet_word, word);
                 } else {
                     yeet_defination += &format!("#define {} {}\n", yeet_word, word);
                 }
             }
 
             if known_quotation_yeet.contains(word) {
-                code = code.replace(&format!("~yeet{}~", yeet_quotation_found), &format!("{}", yeet_word.trim()));
+                code = code.replace(&format!("~yeet{}~", yeet_quotation_found), &yeet_word);
                 yeet_quotation_found += 1;
             } else  if special_chars.contains(&word) {
                 code = code.replace(word, &format!(" {} ", &format!(" {} ", yeet_word)));

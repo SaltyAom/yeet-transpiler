@@ -10,38 +10,28 @@ using namespace std;
 #define YEEt &
 #define YEET <<
 #define Yeeet >>
-#define YeeeT <
-#define YeeEt >
-#define YeeET ::
-#define YeEet :
-#define YeEeT [
-#define YeEEt ]
-#define YeEET ++
-#define YEeet --
-#define YEeeT +=
-#define YEeEt -=
-#define YEeET >=
-#define YEEet <=
-#define YEEeT +
-#define YEEEt -
-#define YEEET =
-#define Yeeeet return
-#define YeeeeT int
-#define YeeeEt main
-#define YeeeET printf
-#define YeeEet char
-#define YeeEeT message
-#define YeeEEt 127
-#define YeeEET scanf
-#define YeEeet "Read character array"
-#define YeEeeT "%s"
+#define YeeeT ::
+#define YeeEt :
+#define YeeET [
+#define YeEet ]
+#define YeEeT ++
+#define YeEEt --
+#define YeEET int
+#define YEeet main
+#define YEeeT printf
+#define YEeEt char
+#define YEeET message
+#define YEEet 127
+#define YEEeT scanf
+#define YEEEt "Read character array"
+#define YEEET "%s"
 
 
- YeeeeT  YeeeEt  YeeT    YeEt     YeET  
-     YeeeET  YeeT  "Read character array "  YeEt    Yeet  
+YeEET YEeet YeeT   YeEt    YeET  
+    YEeeT YeeT  "Read character array " YeEt   Yeet  
 
-     YeeEet  YeeEeT  YeEeT   YeeEEt  YeEEt    Yeet  
-     YeeEET  YeeT  YeEeeT  YEeT     YEEt   YeeEeT  YeEt    Yeet  
+    YEeEt YEeET YeeET  YEEet YeEet   Yeet  
+    YEEeT YeeT  YEEET YEeT    YEEt  YEeET YeEt   Yeet  
 
-     YeeeET  YeeT  YeEeeT  YEeT    YeeEeT  YeEt    Yeet  
-  YEet  
+    YEeeT YeeT  YEEET YEeT   YEeET YeEt   Yeet  
+ YEet  
